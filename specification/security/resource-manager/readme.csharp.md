@@ -12,7 +12,7 @@ csharp:
   payload-flattening-threshold: 2
   clear-output-folder: true
 
-  directive:
+directive:
   - from: securityContacts.json
     where: $.definitions.SecurityContactProperties.properties.alertNotifications.properties.state
     transform: > 
