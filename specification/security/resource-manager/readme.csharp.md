@@ -23,7 +23,7 @@ directive:
   namespace: Microsoft.Azure.Management.Security
   output-folder: $(csharp-sdks-folder)/securitycenter/Microsoft.Azure.Management.SecurityCenter/src/Generated
 
-  directive:
+directive:
   - from: securityContacts.json
     where: $.definitions.SecurityContactProperties.properties.alertNotifications.properties.state
     transform: > 
